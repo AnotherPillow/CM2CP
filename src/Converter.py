@@ -64,7 +64,7 @@ class Converter:
         self.manifest['ContentPackFor']['UniqueID'] = 'Pathoschild.ContentPatcher'
         if 'Dependencies' in self.manifest:
             self.manifest['Dependencies'] = \
-                [mod for mod in self.manifest['Dependencies'] if mod['UniqueID'] not in ['Cherry.ShopTileFramework']]
+                [mod for mod in self.manifest['Dependencies'] if mod['UniqueID'] not in ['Platonymous.CustomMusic']]
         
     def save(self):
         
