@@ -45,7 +45,7 @@ class Converter:
 
             change = {
                 "Action": "EditData",
-                "Target": "Data/Shops",
+                "Target": "Data/AudioChanges",
                 "Entries": entry
             }
 
