@@ -37,8 +37,8 @@ class Converter:
                     'FilePaths': [
                         f'{curly_st}AbsoluteFilePath: {track["File"]}{curly_end}'
                     ],
-                    'Category': 'Ambient' if track['Ambient'] == True else 'Default',
-                    'Looped': track['Loop']
+                    'Category': 'Ambient' if track.get('Ambient') == True else 'Default',
+                    'Looped': track.get('Loop') if track.get('Loop') else False
                 }
             }
         
