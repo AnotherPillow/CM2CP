@@ -1,5 +1,4 @@
 import json5, shutil, os, json
-from preconditiontogsq import convert as preconditiontogsq
 
 from .Logger import logger
 
